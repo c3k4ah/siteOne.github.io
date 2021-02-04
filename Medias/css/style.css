@@ -1,0 +1,168 @@
+body{
+  font-family:'Eras Medium ITC',sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type:none;
+}
+h2{
+  text-transform: uppercase;
+  text-align:center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a{
+  text-decoration:none;
+  color: black;
+}
+/* ++++++++++++++++++++ PARTIE++++++++++++++++++++++ */
+nav{
+  overflow:hidden;
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  opacity: 0.7;
+}
+header li{
+  font-size: 1.2em;
+  float: right;
+}
+header li a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 18px 16px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#logo{
+  font-family:'Segoe Script',cursive;
+  font-weight:bold;
+  float: left;
+}
+#PhotoCouverture{
+  padding-top: 60px;
+  background: url(/Medias/img/pdc1.jpeg) no-repeat 50% 50%;
+  background-size:cover;
+  height: 550px;
+}
+h3{
+  font-family:'Verdana',cursive;
+  font-size:1.1em;
+  font-weight:bold;
+  color:white;
+  text-align:left;
+  text-shadow: 5px 8px 6px black;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#introduction{
+  background-color: #000000;
+  padding: 10px 0px 100px 0px;
+}
+#publiction{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: black;
+}
+.imagesPublication h4{
+  font-family: 'Arial Rounded MT Bold',cursive;
+  font-size: 35px;
+  text-align: center;
+  margin: 15px;
+  font-weight:100;
+}
+.imagesPublication img{
+  border-radius: 20px;
+box-shadow: 10px 5px 4px dimgray;
+}
+.imagesPublication img:hover{
+  opacity: 0.3;
+  transform:scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+#Creations{
+  height: 1400px;
+  background-color: black;
+  padding: 1px 2%;
+}
+#Creations h2{
+  padding-top: 60px;
+}
+#arielle{
+  background: url(/Medias/img/Arielle.png);
+}
+#inconue{
+  background: url(/Medias/img/nous.png);
+}
+#Original{
+  background: url(/Medias/img/original.png);
+}
+#poisson{
+  background: url(/Medias/img/poisson.png);
+}
+#Creations li{
+  margin: 65px 100px 0px 100px;
+  height: 227px;
+  width: 55%;
+  max-width: 55%;
+  float: left;
+  font-size: 25px;
+
+}
+#Creations p{
+  height: 100px;
+  width: 300px;
+  text-align:center;
+  padding:0px 25%;
+}
+#Creations #inconue,#Creations #poisson{
+  float: right;
+  border-radius: 20px;
+}
+#Creations #arielle,#Creations #Original{
+  float: left;
+  border-radius: 20px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+footer{
+  background-color: dimgray;
+  color: white;
+  padding:20px 0px 10px 0px;
+  text-align: center;
+}
+form{
+  margin: 0 auto;
+  max-width: 900px;
+}
+input, textarea, button {
+border: none;
+width: 60%;
+padding: 15px 10px;
+margin: 2px 0%;
+font-size: 1.0em;
+border-radius: 15px;
+font-family: 'Gautami',cursive;
+}
+button{
+  font-size: 20px;
+  background-color: #FFFAE1;
+}
+button:hover {
+  background-color:pink;
+  color: #FFFAE1;
+  cursor:pointer;
+}
+#Trait2{
+  height: 2px;
+  width: 100%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
